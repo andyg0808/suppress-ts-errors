@@ -2,7 +2,7 @@ import colors from "ansi-colors";
 import { readFile, writeFile } from "fs/promises";
 import { Project } from "ts-morph";
 import { extractTypeScriptFromVue } from "../lib/extractTypeScriptFromVue";
-import { generateProgressBar } from "../lib/progressBar";
+import { generateProgressBar } from "../lib/progressbar";
 import { suppressTsErrors } from "../lib/suppressTsErrors";
 
 export const vueHandler = async ({

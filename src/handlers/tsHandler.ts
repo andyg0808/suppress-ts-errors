@@ -1,5 +1,5 @@
 import { Project } from "ts-morph";
-import { generateProgressBar } from "../lib/progressBar";
+import { generateProgressBar } from "../lib/progressbar";
 import { suppressTsErrors } from "../lib/suppressTsErrors";
 
 export const tsHandler = ({
