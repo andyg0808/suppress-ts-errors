@@ -16,7 +16,8 @@
     "lint": "eslint --fix '{src,tests}/**/*.{ts,js}'",
     "format": "prettier --write '{src,tests}/**/*.{ts,js}'",
     "test": "vitest",
-    "test:ci": "vitest run"
+    "test:ci": "vitest run",
+    "preinstall": "pnpm build"
   },
   "repository": {
     "type": "git",
