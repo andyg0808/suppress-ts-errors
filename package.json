@@ -17,7 +17,7 @@
     "format": "prettier --write '{src,tests}/**/*.{ts,js}'",
     "test": "vitest",
     "test:ci": "vitest run",
-    "preinstall": "pnpm build"
+    "preinstall": "pnpm install && pnpm build"
   },
   "repository": {
     "type": "git",
