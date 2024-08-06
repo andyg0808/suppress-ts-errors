@@ -16,8 +16,7 @@
     "lint": "eslint --fix '{src,tests}/**/*.{ts,js}'",
     "format": "prettier --write '{src,tests}/**/*.{ts,js}'",
     "test": "vitest",
-    "test:ci": "vitest run",
-    "prepare": "husky install"
+    "test:ci": "vitest run"
   },
   "repository": {
     "type": "git",
@@ -36,6 +35,20 @@
     "yargs": "^17.4.1"
   },
   "devDependencies": {
+    "@types/cli-progress": "3.11.5",
+    "@types/glob": "8.1.0",
+    "@types/node": "20.11.25",
+    "@types/react": "18.2.64",
+    "@types/yargs": "17.0.32",
+    "@typescript-eslint/eslint-plugin": "5.62.0",
+    "@typescript-eslint/parser": "5.62.0",
+    "eslint": "8.57.0",
+    "eslint-config-prettier": "9.1.0",
+    "husky": "8.0.3",
+    "lint-staged": "13.2.3",
+    "prettier": "3.2.5",
+    "ts-node": "10.9.2",
+    "typescript": "5.4.2"
   },
   "lint-staged": {
     "*.{ts,js}": [
